@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+	padding: 0px;
+}
+/*Services Section*/
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+section.services-section {
+    padding: 100px 0px 50px;
+    background: #efefef;
+}
+
+.services-box {
+    background: #FFF;
+    padding: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.services-box h3 {
+    margin: 15px 0px 20px;
+}
+header {
+    background:url(../image/dr\ bg.jpg);
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

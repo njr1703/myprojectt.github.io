@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Kenia&family=Oswald&family=Playfair+Display:wght@400;800&family=Young+Serif&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+#hero {
+    width: 100%;
+    height: 800px;
+    background: url(../image/cube.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color:#FFE262 ;
+    font-family: 'Aladin';
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    top: 20px;
+    list-style-type: none;
+    margin-right: 30%;
+}
+
+
+.navbar .menu {
+    margin-right: 10%;
+}
+
+
+.navbar .menu a:not(:last-child){
+    color: white;
+    margin: 10px;
+    transition-duration: 0.5s;
+}
+
+.navbar .menu a:not(:last-child):hover {
+    border-bottom: 2px solid white;
+    padding: 10px;
+
+}
+
+.navbar .menu .sign {
+    padding: 10px 15px;
+    color: #eceef1;
+    background:#6454f5;
+    border-radius: 30px;
+
+}
+
+.navbar .menu .sign:hover {
+    background: #010c72;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.hero-box {
+    margin-top: 100px;
+    margin-left: 3%;
+    color: white;
+    width: 40%;
+
+}
+
+.hero-title {
+    font-family: 'Croissant One', serif;
+    font-size: 40px;
+    text-align: left;
+}
+.hero-title:hover{
+    color: aquamarine;
+}
+
+.hero-des {
+    font-family: 'Roboto',sans-serif;
+    line-height: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.hero-des:hover{
+    color: rgb(2, 24, 122);
+}
+
+
+.btn-box  .hero-btn{
+    background: #130DD1;
+    padding: 10px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 20px ;
+    transition-duration: 0.4s;
+    -webkit-box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+}
+
+
+
+.btn-box  .hero-btn:hover {
+    background: whitesmoke;
+    color: #220369;
+    border-radius: 20px;
+}
