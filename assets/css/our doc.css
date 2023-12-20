@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background: url(../images/dr\ bb.jpg);
+}
+header {
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.pro-con {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.doc-name {
+    color: red;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product {
+    height: auto;
+    width: 220px;
+    border: 1px solid black;
+    margin: 30px;
+  
+    border-radius: 10px;
+    transition: transform ease-in-out 0.2s;
+    background-color: #fff;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.des {
+    text-align: center;
+    background: url(../img/des.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+.btn {
+    position: relative;
+    left: 80px;
+    background: url(../img/des.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: 1px solid lightblue;
+    width: 70px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product:hover {
+    transform: scale(1.01);
+    border: 1px solid lightblue;
+}
+
+.blue-button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+span{
+    font-size: 15px;
+    font-weight: bold;
+text-align: center;}
